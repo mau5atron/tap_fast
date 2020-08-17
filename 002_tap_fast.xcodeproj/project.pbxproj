@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E792F9924EB1DE20042F60C /* PORKYS_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 4E792F9824EB1DE20042F60C /* PORKYS_.TTF */; };
 		4EA6A08E24EA789A009464A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6A08D24EA789A009464A0 /* AppDelegate.m */; };
 		4EA6A09124EA789A009464A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6A09024EA789A009464A0 /* ViewController.m */; };
 		4EA6A09424EA789A009464A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA6A09224EA789A009464A0 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E792F9824EB1DE20042F60C /* PORKYS_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = PORKYS_.TTF; sourceTree = "<group>"; };
 		4EA6A08924EA789A009464A0 /* 002_tap_fast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 002_tap_fast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA6A08C24EA789A009464A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EA6A08D24EA789A009464A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E792F9724EB1DC00042F60C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4E792F9824EB1DE20042F60C /* PORKYS_.TTF */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		4EA6A08024EA789A009464A0 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		4EA6A08B24EA789A009464A0 /* 002_tap_fast */ = {
 			isa = PBXGroup;
 			children = (
+				4E792F9724EB1DC00042F60C /* fonts */,
 				4EA6A08C24EA789A009464A0 /* AppDelegate.h */,
 				4EA6A08D24EA789A009464A0 /* AppDelegate.m */,
 				4EA6A08F24EA789A009464A0 /* ViewController.h */,
@@ -131,6 +142,7 @@
 			files = (
 				4EA6A09924EA789A009464A0 /* LaunchScreen.storyboard in Resources */,
 				4EA6A09624EA789A009464A0 /* Assets.xcassets in Resources */,
+				4E792F9924EB1DE20042F60C /* PORKYS_.TTF in Resources */,
 				4EA6A09424EA789A009464A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
