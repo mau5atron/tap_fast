@@ -8,8 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+	NSTimer *gameTimer;
+	int totalScoreCount;
+//	BOOL startedGame;
+	int timeInt;
+	int gameMode;
+}
 
+@property (weak, nonatomic) IBOutlet UIButton *startBtn;
+@property (weak, nonatomic) IBOutlet UILabel *timeLeft;
+@property (weak, nonatomic) IBOutlet UILabel *totalScore;
 
+- (IBAction)startGameBtn:(id)sender;
+- (void)startCounter;
+- (void)restartGame;
 @end
 
